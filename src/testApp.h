@@ -21,11 +21,20 @@ class testApp : public ofBaseApp{
     ofPoint centerPoint;
     ofPoint rootPoint;
     ofPoint otherLegPoint;
+    ofPoint leftShoulderPoint;
+    ofPoint rightShoulderPoint;
+    ofPoint leftHandPoint;
+    ofPoint rightHandPoint;
     
     float unemploymentRates[4]; 
     float amplifier;
     int currentIndex;
     
+    float baseArmAngle;
+    float rightArmAngle;
+    float handShoulderDistance;
     
+    float rightRandom;
+    float leftRandom;
     
 };
